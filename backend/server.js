@@ -4,6 +4,9 @@ const cors = require('cors');
 const connectDB = require("./Database/dbConnection.js");
 require("dotenv").config();
 
+const allowedOrigins=[
+    process.env.FRONTEND_URL
+]
 app.use(express.json());
 app.use(cors());
 

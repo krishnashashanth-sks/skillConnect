@@ -1,6 +1,0 @@
-{
-  "name": "campusconnect-backend",
-  "main": "src/index.js",
-  "compatibility_date": "2026-10-03",
-  "compatibility_flags": ["nodejs_compat"]
-}
